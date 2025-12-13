@@ -19,5 +19,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: .
 git add .github/workflows/deploy.yml
-git commit -m "Add GitHub Actions deployment workflow"
+git commit -m "Add GitHub Actions deployment workflows"
 git push
